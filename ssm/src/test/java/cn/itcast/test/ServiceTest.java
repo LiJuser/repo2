@@ -35,7 +35,6 @@ public class ServiceTest {
         List<Account> list = dao.findAll();
         for (Account account : list) {
             System.out.println(account);
-            System.out.println(111);
         }
         // 释放资源
         session.close();
